@@ -69,7 +69,7 @@ public class Main {
         } else if(p1.getTotalScore()< p2.getTotalScore()) {
             JOptionPane.showMessageDialog(null,"Winner is " + p2.getName());
         } else{
-            System.out.println("Draw");
+            JOptionPane.showMessageDialog(null,"Draw....");
         }
     }
 }
